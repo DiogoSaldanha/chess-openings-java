@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Ruy Lopez",
+    "moves": ["e4", "e5", "Nf3", "Nc6", "Bb5"]
+  },
+  {
+    "id": 2,
+    "name": "Italian Game",
+    "moves": ["e4", "e5", "Nf3", "Nc6", "Bc4"]
+  },
+  {
+    "id": 3,
+    "name": "Sicilian Defense",
+    "moves": ["e4", "c5", "Nf3", "d6", "d4", "cxd4", "Nxd4", "Nf6", "Nc3"]
+  },
+  {
+    "id": 4,
+    "name": "French Defense",
+    "moves": ["e4", "e6", "d4", "d5"]
+  },
+  {
+    "id": 5,
+    "name": "Caro-Kann Defense",
+    "moves": ["e4", "c6", "d4", "d5"]
+  },
+  {
+    "id": 6,
+    "name": "Queen's Gambit",
+    "moves": ["d4", "d5", "c4"]
+  }
+]
