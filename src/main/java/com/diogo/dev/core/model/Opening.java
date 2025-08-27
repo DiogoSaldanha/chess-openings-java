@@ -6,12 +6,12 @@ public class Opening {
 
     private int id;
     private String name;
-    private List<String> moves;
+    private List<Move> moves;
 
     public Opening() {
     }
 
-    public Opening(int id, String name, List<String> moves) {
+    public Opening(int id, String name, List<Move> moves) {
         this.id = id;
         this.name = name;
         this.moves = moves;
@@ -25,7 +25,7 @@ public class Opening {
         return name;
     }
 
-    public List<String> getMoves() {
+    public List<Move> getMoves() {
         return moves;
     }
 
