@@ -2,31 +2,67 @@
   {
     "id": 1,
     "name": "Ruy Lopez",
-    "moves": ["e4", "e5", "Nf3", "Nc6", "Bb5"]
+    "moves": [
+      { "notation":  "e4", "white": true},
+      { "notation":  "e5", "white": false},
+      { "notation":  "Nf3", "white": true},
+      { "notation":  "Nc6", "white": false},
+      { "notation":  "Bb5", "white": true}
+    ]
   },
   {
     "id": 2,
     "name": "Italian Game",
-    "moves": ["e4", "e5", "Nf3", "Nc6", "Bc4"]
+    "moves": [
+      { "notation":  "e4", "white": true},
+      { "notation":  "e5", "white": false},
+      { "notation":  "Nf3", "white": true},
+      { "notation":  "Nc6", "white": false},
+      { "notation":  "Bc4", "white": true}
+    ]
   },
   {
     "id": 3,
     "name": "Sicilian Defense",
-    "moves": ["e4", "c5", "Nf3", "d6", "d4", "cxd4", "Nxd4", "Nf6", "Nc3"]
+    "moves": [
+      { "notation":  "e4", "white": true},
+      { "notation":  "c5", "white": false},
+      { "notation":  "Nf3", "white": true},
+      { "notation":  "d6", "white": false},
+      { "notation":  "d4", "white": true},
+      { "notation":  "cxd4", "white": false},
+      { "notation":  "Nxd4", "white": true},
+      { "notation":  "Nf6", "white": false},
+      { "notation":  "Nc3", "white": true}
+    ]
   },
   {
     "id": 4,
     "name": "French Defense",
-    "moves": ["e4", "e6", "d4", "d5"]
+    "moves": [
+      { "notation":  "e4", "white": true},
+      { "notation":  "e6", "white": false},
+      { "notation":  "d4", "white": true},
+      { "notation":  "d5", "white": false}
+    ]
   },
   {
     "id": 5,
     "name": "Caro-Kann Defense",
-    "moves": ["e4", "c6", "d4", "d5"]
+    "moves": [
+      { "notation":  "e4", "white": true},
+      { "notation":  "c6", "white": false},
+      { "notation":  "d4", "white": true},
+      { "notation":  "d5", "white": false}
+    ]
   },
   {
     "id": 6,
     "name": "Queen's Gambit",
-    "moves": ["d4", "d5", "c4"]
+    "moves": [
+      { "notation":  "d4", "white": true},
+      { "notation":  "d5", "white": false},
+      { "notation":  "c4", "white": true}
+    ]
   }
 ]

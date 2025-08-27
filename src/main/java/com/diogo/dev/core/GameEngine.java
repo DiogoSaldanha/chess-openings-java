@@ -10,7 +10,6 @@ public class GameEngine {
 
     private Scanner scanner = new Scanner(System.in);
 
-
     public void playOpening(Opening opening) {
 
         System.out.println("Praticando a abertura: " + opening.getName());
@@ -19,7 +18,7 @@ public class GameEngine {
 
         for (int i = 0; i < moves.size(); i++) {
             Move correctMove = moves.get(i);
-            System.out.println("O seu lance para o turno " + (i + 1) + ": ");
+            System.out.print("O lance de número " + (i + 1) + " da sequência é? -> ");
             String userInput = scanner.nextLine();
 
             if (userInput.equalsIgnoreCase(correctMove.getNotation())) {
@@ -31,6 +30,6 @@ public class GameEngine {
             }
         }
 
-        System.out.println("Pontuação final: ");
+        System.out.println("Pontuação final: " + score);
     }
 }
